@@ -58,4 +58,50 @@ font-size: 20px;
 }
 /* MAIN */
 
-/* CARD */
+
+/* CATALOGO */
+.lista--catalogo{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* PRODUCTO */
+
+.card{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap ;
+}
+
+.info--contenedor{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items:flex-start;
+  padding: 0px;
+  margin: 0px;
+}
+
+.img--contenedor{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items:center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.img--producto{
+  width:15rem;
+}
+
+.btn--producto{
+  background-color: #ffbd59;
+}

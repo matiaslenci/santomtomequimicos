@@ -1,97 +1,103 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CSS -->
-    <!-- Animaciones -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <!-- BT -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-    />
-    <!-- Estilos -->
-    <link rel="stylesheet" href="style.css" />
-    <title>Santo Tome Quimicos</title>
-  </head>
-  <body>
-    <!-- HEADER -->
-    <header>
-      <!-- Contacto -->
-      
-<div class="header--contacto">
-  <div class="header--item">
-<img src="./icons/bxl-whatsapp.svg" alt="icono de whatsapp de contacto">
-<p class="header--contacto__texto">+54 9 3424 76-3337</p>
-</div>
-<div class="header--item">
-<img src="./icons/bx-envelope.svg" alt="icono de email de contacto">
-<p class="header--contacto__texto">info@santotomequimicos.com</p>
-</div>
-<div class="header--item">
-<img src="./icons/bxs-map.svg" alt="icono de direccion de contacto">
-<p class="header--contacto__texto">Almaraz 4857, Santa Tome, Santa Fe, Argentina</p>
-</div>
-<div class="header--item">
-  <img src="./icons/bxl-facebook-square.svg" alt="icono de facebook">
-  <p class="header--contacto__texto">Santo Tome quimicos</p>
-</div>
-</div>
-      <!-- NAVBAR -->
-      <nav class="navbar navbar-expand-lg bg-white nav--color">
-        <div class="container-fluid">
-          <div>
-            <a class="navbar-brand" href="#">
-              <img
-                src="./img/logoicono.png"
-                alt="logo santo tome quimicos"
-                class="logo"
-              ></img>
-            </a>
-          </div>
-          <div class="collapse navbar-collapse">
-            <ul class="navbar-nav">
-              <li class="nav-item animate__animated animate__slideInUp animate__faster">
-                <a class="nav-link active " aria-current="page" href="#">
-                  Inicio
-                </a>
-              </li>
-              <li class="nav-item animate__animated animate__slideInUp animate__faster">
-                <a class="nav-link active " aria-current="page" href="#">
-                  Nosotros
-                </a>
-              </li>
-              <li class="nav-item animate__animated animate__slideInUp animate__faster">
-                <a class="nav-link active " aria-current="page" href="#">
-                  Contacto
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <CartWidget />
-      </nav>
-      <div class="contenedor--flex">
-        <h1 class="animate__animated animate__slideInUp animate__faster header--titulo">Santo Tome Quimicos</h1>
-      </div>
-    </header>
-    <!-- MAIN -->
-    <main>
-      <!-- CATALOGO -->
-      <div class="lista--catalogo" id="lista">
-      </div>
 
-    </main>
-    <!-- FOOTER -->
-    <footer></footer>
-    <!-- JS -->
-    <script src="./js/index.js"></script>
-    <!-- BT -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- CSS -->
+  <!-- Animaciones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- BT -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css" />
+  <title>Santo Tome Quimicos</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <!-- Contacto -->
+
+    <div class="header--contacto">
+      <div class="header--item">
+        <img src="./icons/bxl-whatsapp.svg" alt="icono de whatsapp de contacto">
+        <p class="header--contacto__texto">+54 9 3424 76-3337</p>
+      </div>
+      <div class="header--item">
+        <img src="./icons/bx-envelope.svg" alt="icono de email de contacto">
+        <p class="header--contacto__texto">info@santotomequimicos.com</p>
+      </div>
+      <div class="header--item">
+        <img src="./icons/bxs-map.svg" alt="icono de direccion de contacto">
+        <p class="header--contacto__texto">Almaraz 4857, Santa Tome, Santa Fe, Argentina</p>
+      </div>
+      <div class="header--item">
+        <img src="./icons/bxl-facebook-square.svg" alt="icono de facebook">
+        <p class="header--contacto__texto">Santo Tome quimicos</p>
+      </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white nav--color">
+      <div class="container-fluid">
+        <div>
+          <a class="navbar-brand" href="#">
+            <img src="./img/logoicono.png" alt="logo santo tome quimicos" class="logo"></img>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item animate__animated animate__slideInUp animate__faster">
+              <a class="nav-link active " aria-current="page" href="#">
+                Inicio
+              </a>
+            </li>
+            <li class="nav-item animate__animated animate__slideInUp animate__faster">
+              <a class="nav-link active " aria-current="page" href="#">
+                Nosotros
+              </a>
+            </li>
+            <li class="nav-item animate__animated animate__slideInUp animate__faster">
+              <a class="nav-link active " aria-current="page" href="#">
+                Contacto
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <CartWidget />
+    </nav>
+    <div class="contenedor--flex">
+      <h1 class="animate__animated animate__slideInUp animate__faster header--titulo">Santo Tome Quimicos</h1>
+    </div>
+  </header>
+  <!-- MAIN -->
+  <main class="container">
+    <!-- CATALOGO -->
+    <div class="lista--catalogo" id="lista">
+      <div class="card container">
+        <div class="img--contenedor">
+          <img src="./img/muestra.jpg" alt="" class="img--producto">
+        </div>
+        <div class="info--contenedor">
+          <h3 class="titulo--producto">Jabon liquido</h3>
+          <p class="precio--producto">$ 1000</p>
+          <p class="descripcion--producto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae repellat
+            itaque, ducimus est neque expedita non saepe, eum repudiandae aperiam vero. Sunt enim quos, harum sint
+            excepturi odio reprehenderit in.</p>
+          <button class="btn btn--producto">Comprar</button>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <!-- FOOTER -->
+  <footer></footer>
+  <!-- JS -->
+  <script src="./js/index.js"></script>
+  <!-- BT -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>

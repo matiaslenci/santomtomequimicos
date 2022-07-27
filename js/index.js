@@ -34,6 +34,7 @@ const productos = [
 ];
 
 let lista = document.getElementById('lista');
-
+/* 
 lista.innerHTML = `
-`
+
+` */
