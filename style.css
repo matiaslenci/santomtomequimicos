@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+
 /* HEADER */
 
 /* CONTACTO */
@@ -15,14 +16,14 @@
   padding: 0px 20px 0px 0px;
 }
 
-.header--item{
+.header--item {
   display: flex;
   flex-direction: row;
   align-items: bottom;
-  padding:0px 20px 0px 0px;
+  padding: 0px 20px 0px 0px;
 }
 
-.header--contacto__texto{
+.header--contacto__texto {
   margin: 0px;
 }
 
@@ -43,24 +44,22 @@
   background: #e9e9eb;
   margin-bottom: 2rem;
   box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 15px;
-/*   box-shadow: 0 1px 11px 3px rgba(0, 0, 0, 0.338); */
+  /*   box-shadow: 0 1px 11px 3px rgba(0, 0, 0, 0.338); */
 }
 
 .nav-link {
-font-size: 20px;
+  font-size: 20px;
 }
 
-
-.logo{
+.logo {
   width: 75px;
   height: 75px;
   margin-right: 20px;
 }
 /* MAIN */
 
-
 /* CATALOGO */
-.lista--catalogo{
+.lista--catalogo {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -72,36 +71,71 @@ font-size: 20px;
 
 /* PRODUCTO */
 
-.card{
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap ;
+.li--producto {
+  padding: 20px;
 }
 
-.info--contenedor{
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.info--contenedor {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
-  align-items:flex-start;
-  padding: 0px;
+  align-items: flex-start;
+  padding: 20px;
   margin: 0px;
 }
 
-.img--contenedor{
+.img--contenedor {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   padding: 0px;
   margin: 0px;
 }
 
-.img--producto{
-  width:15rem;
+.img--producto {
+  width: 15rem;
 }
 
-.btn--producto{
+.btn--producto {
   background-color: #ffbd59;
+}
+
+
+/* FOOTER */
+.footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content:space-between;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  background-color: #ffbd59;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+}
+.footer--redes{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.footer--copyright{
+  color: black;
+  font-size: 15px;
+  font-weight: lighter;
 }
