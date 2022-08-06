@@ -6,35 +6,40 @@ const productos = [
       nombre: "Jabon liquido",
       precio: 1000,
       img: "'../img/muestra.jpg'",
-      descripcion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat itaque, ducimus est neque expedita non saepe, eum repudiandae aperiam vero. Sunt enim quos, harum sint excepturi odio reprehenderit in."
+      descripcion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat itaque, ducimus est neque expedita non saepe, eum repudiandae aperiam vero. Sunt enim quos, harum sint excepturi odio reprehenderit in.",
+      mensaje: "https://api.whatsapp.com/send?phone=5493424763337&text=Estoy%20interesado%20en%20el%20jabon%20liquido"
     },
     {
       id: 1,
       nombre: "Jabon liquido",
       precio: 1000,
       img: "'../img/muestra.jpg'",
-      descripcion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat itaque, ducimus est neque expedita non saepe, eum repudiandae aperiam vero. Sunt enim quos, harum sint excepturi odio reprehenderit in."
+      descripcion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat itaque, ducimus est neque expedita non saepe, eum repudiandae aperiam vero. Sunt enim quos, harum sint excepturi odio reprehenderit in.",
+      mensaje: "https://api.whatsapp.com/send?phone=5493424763337&text=Estoy%20interesado%20en%20el%20jabon%20liquido"
     },
     {
       id: 2,
       nombre: "Jabon liquido",
       precio: 1000,
       img: "'../img/muestra.jpg'",
-      descripcion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat itaque, ducimus est neque expedita non saepe, eum repudiandae aperiam vero. Sunt enim quos, harum sint excepturi odio reprehenderit in."
+      descripcion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat itaque, ducimus est neque expedita non saepe, eum repudiandae aperiam vero. Sunt enim quos, harum sint excepturi odio reprehenderit in.",
+      mensaje: "https://api.whatsapp.com/send?phone=5493424763337&text=Estoy%20interesado%20en%20el%20jabon%20liquido"
     },
     {
       id: 3,
       nombre: "Jabon liquido",
       precio: 1000,
       img: "'../img/muestra.jpg'",
-      descripcion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat itaque, ducimus est neque expedita non saepe, eum repudiandae aperiam vero. Sunt enim quos, harum sint excepturi odio reprehenderit in."
+      descripcion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat itaque, ducimus est neque expedita non saepe, eum repudiandae aperiam vero. Sunt enim quos, harum sint excepturi odio reprehenderit in.",
+      mensaje: "https://api.whatsapp.com/send?phone=5493424763337&text=Estoy%20interesado%20en%20el%20jabon%20liquido"
     },
     {
       id: 4,
       nombre: "Jabon liquido",
       precio: 1000,
       img: "'../img/muestra.jpg'",
-      descripcion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat itaque, ducimus est neque expedita non saepe, eum repudiandae aperiam vero. Sunt enim quos, harum sint excepturi odio reprehenderit in."
+      descripcion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat itaque, ducimus est neque expedita non saepe, eum repudiandae aperiam vero. Sunt enim quos, harum sint excepturi odio reprehenderit in.",
+      mensaje: "https://api.whatsapp.com/send?phone=5493424763337&text=Estoy%20interesado%20en%20el%20jabon%20liquido"
     },
 ];
 
@@ -52,7 +57,11 @@ lista.innerHTML += `
     <h3>${producto.nombre}</h3>
     <p><strong> $ ${producto.precio} </strong></p>
     <p>${producto.descripcion}</p>
-    <button class='btn btn--producto' id='btn${producto.id}'>Comprar</button>
+<form>
+    <a href="${producto.mensaje}" target="_blank" >
+        <input type="button" value="Comprar" class='btn btn--producto'>
+    </a>
+</form>
   </div>
 </div>
 </li>
