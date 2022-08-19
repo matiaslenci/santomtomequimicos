@@ -5,7 +5,7 @@ const productos = [
       id: 0,
       nombre: "Jabon liquido",
       precio: 1000,
-      img: "'../img/muestra.jpg'",
+      img: "'./img/muestra.jpg'",
       descripcion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat itaque, ducimus est neque expedita non saepe, eum repudiandae aperiam vero. Sunt enim quos, harum sint excepturi odio reprehenderit in.",
       mensaje: "https://api.whatsapp.com/send?phone=5493424763337&text=Estoy%20interesado%20en%20el%20jabon%20liquido"
     },
@@ -13,7 +13,7 @@ const productos = [
       id: 1,
       nombre: "Jabon liquido",
       precio: 1000,
-      img: "'../img/muestra.jpg'",
+      img: "'./img/muestra.jpg'",
       descripcion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat itaque, ducimus est neque expedita non saepe, eum repudiandae aperiam vero. Sunt enim quos, harum sint excepturi odio reprehenderit in.",
       mensaje: "https://api.whatsapp.com/send?phone=5493424763337&text=Estoy%20interesado%20en%20el%20jabon%20liquido"
     },
@@ -21,7 +21,7 @@ const productos = [
       id: 2,
       nombre: "Jabon liquido",
       precio: 1000,
-      img: "'../img/muestra.jpg'",
+      img: "'./img/muestra.jpg'",
       descripcion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat itaque, ducimus est neque expedita non saepe, eum repudiandae aperiam vero. Sunt enim quos, harum sint excepturi odio reprehenderit in.",
       mensaje: "https://api.whatsapp.com/send?phone=5493424763337&text=Estoy%20interesado%20en%20el%20jabon%20liquido"
     },
@@ -29,7 +29,7 @@ const productos = [
       id: 3,
       nombre: "Jabon liquido",
       precio: 1000,
-      img: "'../img/muestra.jpg'",
+      img: "'./img/muestra.jpg'",
       descripcion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat itaque, ducimus est neque expedita non saepe, eum repudiandae aperiam vero. Sunt enim quos, harum sint excepturi odio reprehenderit in.",
       mensaje: "https://api.whatsapp.com/send?phone=5493424763337&text=Estoy%20interesado%20en%20el%20jabon%20liquido"
     },
@@ -37,7 +37,7 @@ const productos = [
       id: 4,
       nombre: "Jabon liquido",
       precio: 1000,
-      img: "'../img/muestra.jpg'",
+      img: "'./img/muestra.jpg'",
       descripcion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat itaque, ducimus est neque expedita non saepe, eum repudiandae aperiam vero. Sunt enim quos, harum sint excepturi odio reprehenderit in.",
       mensaje: "https://api.whatsapp.com/send?phone=5493424763337&text=Estoy%20interesado%20en%20el%20jabon%20liquido"
     },

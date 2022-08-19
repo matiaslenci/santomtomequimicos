@@ -42,7 +42,7 @@ body{
 }
 
 .img--principal{
-  background-image: url(../img/limpieza.jpg);
+  background-image: url(./img/limpieza.jpg);
   color: #000000;
   height: 600px;
   width: 100vw;
